@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitcoin</source>
-        <translation>Over Bitcoin</translation>
+        <source>About Titcoin</source>
+        <translation>Over Titcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Titcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Titcoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
-        <translation>De Bitcoin-ontwikkelaars</translation>
+        <source>The Titcoin developers</source>
+        <translation>De Titcoin-ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Bitcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <source>These are your Titcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn uw Titcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
+        <source>Sign a message to prove you own a Titcoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Titcoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify a message to ensure it was signed with a specified Titcoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Titcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Bitcoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw bitcoins verzendt.</translation>
+        <source>These are your Titcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Titcoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw titcoins verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitcoins stelen.</translation>
+        <source>Titcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your titcoins from being stolen by malware infecting your computer.</source>
+        <translation>Titcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw titcoins stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -321,9 +321,9 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>TitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
+        <location filename="../titcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>&amp;Onderteken bericht...</translation>
     </message>
@@ -374,8 +374,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Laat informatie zien over Bitcoin</translation>
+        <source>Show information about Titcoin</source>
+        <translation>Laat informatie zien over Titcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Verstuur munten naar een Bitcoinadres</translation>
+        <source>Send coins to a Titcoin address</source>
+        <translation>Verstuur munten naar een Titcoinadres</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Wijzig instellingen van Bitcoin</translation>
+        <source>Modify configuration options for Titcoin</source>
+        <translation>Wijzig instellingen van Titcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Titcoin</source>
+        <translation>Titcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Bitcoin</source>
-        <translation>&amp;Over Bitcoin</translation>
+        <source>&amp;About Titcoin</source>
+        <translation>&amp;Over Titcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Titcoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Titcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified Titcoin addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Titcoinadressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+47"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin client</translation>
+        <source>Titcoin client</source>
+        <translation>Titcoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n actieve connectie naar Bitcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Bitcoinnetwerk</numerusform></translation>
+        <source>%n active connection(s) to Titcoin network</source>
+        <translation><numerusform>%n actieve connectie naar Titcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Titcoinnetwerk</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Bitcoinnetwerk. Wilt u de transactiekosten betalen?</translation>
+        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Titcoinnetwerk. Wilt u de transactiekosten betalen?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -656,8 +656,8 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Bitcoinadres of misvormde URI-parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Titcoin address or malformed URI parameters.</source>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Titcoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,9 +670,9 @@ Adres: %4
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Bitcoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <location filename="../titcoin.cpp" line="+111"/>
+        <source>A fatal error occurred. Titcoin can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. Titcoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Bitcoinadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Titcoin address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Titcoinadres</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoin-Qt</translation>
+        <source>Titcoin-Qt</source>
+        <translation>Titcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Start Bitcoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start Titcoin after logging in to the system.</source>
+        <translation>Start Titcoin automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>Start &amp;Bitcoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start Titcoin on system login</source>
+        <translation>Start &amp;Titcoin bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Bitcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Titcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Titcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het Bitcoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the Titcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het Titcoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Bitcoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Titcoin.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Titcoin herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Of Bitcoinadressen getoond worden in de transactielijst</translation>
+        <source>Whether to show Titcoin addresses in the transaction list or not.</source>
+        <translation>Of Titcoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Bitcoin.</translation>
+        <source>This setting will take effect after restarting Titcoin.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van Titcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Titcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Titcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan bitcoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start titcoin: click-to-pay handler</source>
+        <translation>Kan titcoin niet starten: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Toon het BitcoinQt-hulpbericht voor een lijst met mogelijke Bitcoin commandoregel-opties.</translation>
+        <source>Show the Titcoin-Qt help message to get a list with possible Titcoin command-line options.</source>
+        <translation>Toon het TitcoinQt-hulpbericht voor een lijst met mogelijke Titcoin commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin-debugscherm</translation>
+        <source>Titcoin - Debug window</source>
+        <translation>Titcoin-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Kern</translation>
+        <source>Titcoin Core</source>
+        <translation>Titcoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Bitcoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <source>Open the Titcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Titcoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Welkom bij de Bitcoin RPC-console.</translation>
+        <source>Welcome to the Titcoin RPC console.</source>
+        <translation>Welkom bij de Titcoin RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1319,8 +1319,8 @@ Adres: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 TIT</source>
+        <translation>123.456 TIT</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Titcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een Titcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
+        <source>Sign the message to prove you own this Titcoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Titcoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified Titcoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Titcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Titcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een Titcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Voer Bitcoin-handtekening in</translation>
+        <source>Enter Titcoin signature</source>
+        <translation>Voer Titcoin-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Bitcoin developers</source>
-        <translation>De Bitcoin-ontwikkelaars</translation>
+        <source>The Titcoin developers</source>
+        <translation>De Titcoin-ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2184,11 +2184,11 @@ Adres: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>titcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoinversie</translation>
+        <location filename="../titcoinstrings.cpp" line="+94"/>
+        <source>Titcoin version</source>
+        <translation>Titcoinversie</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Stuur commando naar -server of bitcoind</translation>
+        <source>Send command to -server or titcoind</source>
+        <translation>Stuur commando naar -server of titcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,14 +2217,14 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: bitcoin.conf)
+        <source>Specify configuration file (default: titcoin.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: titcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: bitcoind.pid)
+        <source>Specify pid file (default: titcoind.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: titcoind.pid)
 </translation>
     </message>
     <message>
@@ -2302,23 +2302,23 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=titcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Titcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=bitcoinrpc
+rpcuser=titcoinrpc
 rpcpassword=%s
 (u hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
 Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
 Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com</translation>
+for example: alertnotify=echo %%s | mail -s &quot;Titcoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2332,8 +2332,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. Bitcoin draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. Titcoin is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. Titcoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Bitcoin niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Titcoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Titcoin niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Bitcoin wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the Titcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de Titcoin wiki voor SSL-instructies)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Titcoin</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Titcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Bitcoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Titcoin to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Titcoin om te voltooien</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. Bitcoin draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. Titcoin is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. Titcoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+64"/>

@@ -11,9 +11,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(BTC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    unitlist.append(TIT);
+    unitlist.append(mTIT);
+    unitlist.append(uTIT);
     return unitlist;
 }
 
@@ -21,9 +21,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case BTC:
-    case mBTC:
-    case uBTC:
+    case TIT:
+    case mTIT:
+    case uTIT:
         return true;
     default:
         return false;
@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BTC");
-    case mBTC: return QString("mBTC");
-    case uBTC: return QString::fromUtf8("μBTC");
+    case TIT: return QString("TIT");
+    case mTIT: return QString("mTIT");
+    case uTIT: return QString::fromUtf8("μTIT");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Bitcoins");
-    case mBTC: return QString("Milli-Bitcoins (1 / 1,000)");
-    case uBTC: return QString("Micro-Bitcoins (1 / 1,000,000)");
+    case TIT: return QString("Titcoins");
+    case mTIT: return QString("Milli-Titcoins (1 / 1,000)");
+    case uTIT: return QString("Micro-Titcoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }
@@ -56,9 +56,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case BTC:  return 100000000;
-    case mBTC: return 100000;
-    case uBTC: return 100;
+    case TIT:  return 100000000;
+    case mTIT: return 100000;
+    case uTIT: return 100;
     default:   return 100000000;
     }
 }
@@ -67,9 +67,9 @@ int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8; // 21,000,000 (# digits, without commas)
-    case mBTC: return 11; // 21,000,000,000
-    case uBTC: return 14; // 21,000,000,000,000
+    case TIT: return 8; // 21,000,000 (# digits, without commas)
+    case mTIT: return 11; // 21,000,000,000
+    case uTIT: return 14; // 21,000,000,000,000
     default: return 0;
     }
 }
@@ -78,9 +78,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8;
-    case mBTC: return 5;
-    case uBTC: return 2;
+    case TIT: return 8;
+    case mTIT: return 5;
+    case uTIT: return 2;
     default: return 0;
     }
 }

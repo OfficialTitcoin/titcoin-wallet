@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Bitcoin</source>
-        <translation>Despre Bitcoin</translation>
+        <source>About Titcoin</source>
+        <translation>Despre Titcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; versiunea</translation>
+        <source>&lt;b&gt;Titcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Titcoin&lt;/b&gt; versiunea</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Bitcoin developers</source>
+        <source>The Titcoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele dumneavoastră Bitcoin pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
+        <source>These are your Titcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele dumneavoastră Titcoin pentru a primi plăţi. Dacă doriţi, puteți da o adresa diferită fiecărui expeditor, pentru a putea ţine evidenţa plăţilor.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Bitcoin address</source>
+        <source>Sign a message to prove you own a Titcoin address</source>
         <translation>Semneaza mesajul pentru a dovedi ca detii aceasta adresa Bitocin</translation>
     </message>
     <message>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Bitcoin address</source>
-        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa bitcoin specifica</translation>
+        <source>Verify a message to ensure it was signed with a specified Titcoin address</source>
+        <translation>Verifica mesajul pentru a te asigura ca a fost insemnat cu o adresa titcoin specifica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Titcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate bitcoins dvs. de a fi furate de intentii rele.</translation>
+        <source>Titcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your titcoins from being stolen by malware infecting your computer.</source>
+        <translation>Titcoin se va închide acum pentru a termina procesul de criptare. Amintiți-vă că criptarea portofelului dumneavoastră nu poate proteja în totalitate titcoins dvs. de a fi furate de intentii rele.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -316,9 +316,9 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>TitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
+        <location filename="../titcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
         <translation>Semneaza &amp;mesaj...</translation>
     </message>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Bitcoin</source>
-        <translation>Informaţii despre Bitcoin</translation>
+        <source>Show information about Titcoin</source>
+        <translation>Informaţii despre Titcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>&amp;Trimiteţi Bitcoin către o anumită adresă</translation>
+        <source>Send coins to a Titcoin address</source>
+        <translation>&amp;Trimiteţi Titcoin către o anumită adresă</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Modifică setările pentru Bitcoin</translation>
+        <source>Modify configuration options for Titcoin</source>
+        <translation>Modifică setările pentru Titcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Titcoin</source>
+        <translation>Titcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Bitcoin</source>
-        <translation>&amp;Despre Bitcoin</translation>
+        <source>&amp;About Titcoin</source>
+        <translation>&amp;Despre Titcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Titcoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Titcoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Bitcoin client</source>
-        <translation>Client Bitcoin</translation>
+        <source>Titcoin client</source>
+        <translation>Client Titcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n active connections to Bitcoin network</numerusform><numerusform>%n active connections to Bitcoin network</numerusform><numerusform>%n active connections to Bitcoin network</numerusform></translation>
+        <source>%n active connection(s) to Titcoin network</source>
+        <translation><numerusform>%n active connections to Titcoin network</numerusform><numerusform>%n active connections to Titcoin network</numerusform><numerusform>%n active connections to Titcoin network</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,7 +647,7 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Titcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -661,8 +661,8 @@ Address: %4
         <translation>Portofelul electronic este &lt;b&gt;criptat&lt;/b&gt; iar in momentul de faţă este &lt;b&gt;blocat&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <location filename="../titcoin.cpp" line="+111"/>
+        <source>A fatal error occurred. Titcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă bitcoin valabilă.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Titcoin address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă titcoin valabilă.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Bitcoin-Qt</source>
-        <translation>Bitcoin-Qt</translation>
+        <source>Titcoin-Qt</source>
+        <translation>Titcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Porneşte automat programul Bitcoin la pornirea computerului.</translation>
+        <source>Automatically start Titcoin after logging in to the system.</source>
+        <translation>Porneşte automat programul Titcoin la pornirea computerului.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;S Porneşte Bitcoin la pornirea sistemului</translation>
+        <source>&amp;Start Titcoin on system login</source>
+        <translation>&amp;S Porneşte Titcoin la pornirea sistemului</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului Bitcoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
+        <source>Automatically open the Titcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului Titcoin. Funcţionează doar în cazul în care routerul e compatibil UPnP şi opţiunea e activată.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectare la reţeaua Bitcoin folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
+        <source>Connect to the Titcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectare la reţeaua Titcoin folosind un proxy SOCKS (de exemplu, când conexiunea se stabileşte prin reţeaua Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea Bitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Titcoin.</source>
+        <translation>Limba interfeței utilizatorului poate fi setat aici. Această setare va avea efect după repornirea Titcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -931,12 +931,12 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de bitcoin.</translation>
+        <translation>Alege subdiviziunea folosită la afişarea interfeţei şi la trimiterea de titcoin.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Vezi dacă adresele Bitcoin sunt în lista de tranzacție sau nu</translation>
+        <source>Whether to show Titcoin addresses in the transaction list or not.</source>
+        <translation>Vezi dacă adresele Titcoin sunt în lista de tranzacție sau nu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,13 +987,13 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Bitcoin.</source>
+        <source>This setting will take effect after restarting Titcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Adresa bitcoin pe care a-ti specificat-o este invalida</translation>
+        <translation>Adresa titcoin pe care a-ti specificat-o este invalida</translation>
     </message>
 </context>
 <context>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua Bitcoin după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Titcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informațiile afișate pot fi expirate. Portofelul tău se sincronizează automat cu rețeaua Titcoin după ce o conexiune este stabilita, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,7 +1060,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start titcoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Arata mesajul de ajutor Bitcoin-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor Bitcoin</translation>
+        <source>Show the Titcoin-Qt help message to get a list with possible Titcoin command-line options.</source>
+        <translation>Arata mesajul de ajutor Titcoin-QT pentru a obtine o lista cu posibilele optiuni ale comenzilor Titcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin-Fereastra pentru debug</translation>
+        <source>Titcoin - Debug window</source>
+        <translation>Titcoin-Fereastra pentru debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Titcoin Core</source>
+        <translation>Titcoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,7 +1245,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Titcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Deschide logurile debug din directorul curent. Aceasta poate dura cateva secunde pentru fisierele mai mari</translation>
     </message>
     <message>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Bun venit la consola bitcoin RPC</translation>
+        <source>Welcome to the Titcoin RPC console.</source>
+        <translation>Bun venit la consola titcoin RPC</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1281,7 +1281,7 @@ Address: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Trimite Bitcoin</translation>
+        <translation>Trimite Titcoin</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1310,8 +1310,8 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <source>123.456 TIT</source>
+        <translation>123.456 TIT</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1331,7 +1331,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Confirmaţi trimiterea de bitcoin</translation>
+        <translation>Confirmaţi trimiterea de titcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1376,7 +1376,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de bitcoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
+        <translation>Eroare: Tranyacţia a fost respinsă.  Acesta poate fi rezultatul cheltuirii prealabile a unei sume de titcoin din portofelul electronic, ca în cazul folosirii unei copii a fisierului wallet.dat, în care s-au efectuat tranzacţii neînregistrate în fisierul curent.</translation>
     </message>
 </context>
 <context>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Titcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduceţi o adresă Titcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1463,7 +1463,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Introduceţi o adresă Titcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa Bitcoin</translation>
+        <source>Sign the message to prove you own this Titcoin address</source>
+        <translation>Semneaza mesajul pentru a dovedi ca detii acesta adresa Titcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1536,12 +1536,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Introduceţi o adresă Titcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa Bitcoin specifica</translation>
+        <source>Verify the message to ensure it was signed with the specified Titcoin address</source>
+        <translation>Verifica mesajul pentru a fi sigur ca a fost semnat cu adresa Titcoin specifica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Titcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduceţi o adresă Titcoin (de exemplu: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,7 +1566,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Bitcoin signature</source>
+        <source>Enter Titcoin signature</source>
         <translation>Introduce semnatura bitocin</translation>
     </message>
     <message>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Bitcoin developers</source>
+        <source>The Titcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1775,7 +1775,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Monedele bitcoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
+        <translation>Monedele titcoin generate se pot cheltui dupa parcurgerea a 120 de blocuri.  După ce a fost generat, s-a propagat în reţea, urmând să fie adăugat lanţului de blocuri.  Dacă nu poate fi inclus in lanţ, starea sa va deveni &quot;neacceptat&quot; si nu va putea fi folosit la tranzacţii.  Acest fenomen se întâmplă atunci cand un alt nod a generat un bloc la o diferenţa de câteva secunde.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2128,7 +2128,7 @@ Address: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Trimite Bitcoin</translation>
+        <translation>Trimite Titcoin</translation>
     </message>
 </context>
 <context>
@@ -2175,11 +2175,11 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>titcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Bitcoin version</source>
-        <translation>versiunea Bitcoin</translation>
+        <location filename="../titcoinstrings.cpp" line="+94"/>
+        <source>Titcoin version</source>
+        <translation>versiunea Titcoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or bitcoind</source>
-        <translation>Trimite comanda la -server sau bitcoind</translation>
+        <source>Send command to -server or titcoind</source>
+        <translation>Trimite comanda la -server sau titcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,12 +2208,12 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Specifica-ți configurația fisierului (in mod normal: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: titcoin.conf)</source>
+        <translation>Specifica-ți configurația fisierului (in mod normal: titcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: bitcoind.pid)</source>
+        <source>Specify pid file (default: titcoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2292,13 +2292,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=titcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Titcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2314,7 +2314,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Titcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2359,7 +2359,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Titcoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2609,8 +2609,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Optiuni SSl (vezi Bitcoin wiki pentru intructiunile de instalare)</translation>
+        <source>SSL options: (see the Titcoin Wiki for SSL setup instructions)</source>
+        <translation>Optiuni SSl (vezi Titcoin wiki pentru intructiunile de instalare)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2801,13 +2801,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune Bitcoin mai noua</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Titcoin</source>
+        <translation>Eroare incarcare wallet.dat: Portofelul are nevoie de o versiune Titcoin mai noua</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Portofelul trebuie rescris: restarteaza aplicatia bitcoin pentru a face asta.</translation>
+        <source>Wallet needed to be rewritten: restart Titcoin to complete</source>
+        <translation>Portofelul trebuie rescris: restarteaza aplicatia titcoin pentru a face asta.</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2868,8 +2868,8 @@ details suggestions history
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Imposibilitatea de a lega la% s pe acest computer. Bitcoin este, probabil, deja în execuție.</translation>
+        <source>Unable to bind to %s on this computer. Titcoin is probably already running.</source>
+        <translation>Imposibilitatea de a lega la% s pe acest computer. Titcoin este, probabil, deja în execuție.</translation>
     </message>
     <message>
         <location line="+64"/>

@@ -32,7 +32,7 @@ const QString BITCOIN_IPC_PREFIX("bitcoin:");
 //
 static QString ipcServerName()
 {
-    QString name("BitcoinQt");
+    QString name("TitcoinQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -104,7 +104,7 @@ PaymentServer::PaymentServer(QApplication* parent) : QObject(parent), saveURIs(t
     uriServer = new QLocalServer(this);
 
     if (!uriServer->listen(name))
-        qDebug() << tr("Cannot start bitcoin: click-to-pay handler");
+        qDebug() << tr("Cannot start titcoin: click-to-pay handler");
     else
         connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));
 }

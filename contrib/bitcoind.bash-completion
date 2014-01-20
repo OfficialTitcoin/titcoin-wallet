@@ -1,11 +1,11 @@
-# bash programmable completion for bitcoind(1)
+# bash programmable completion for titcoind(1)
 # Copyright (c) 2012 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have bitcoind && {
+have titcoind && {
 
-# call $bitcoind for RPC
+# call $titcoind for RPC
 _bitcoin_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
@@ -16,7 +16,7 @@ _bitcoin_rpc() {
                 ;;
         esac
     done
-    $bitcoind "${rpcargs[@]}" "$@"
+    $titcoind "${rpcargs[@]}" "$@"
 }
 
 # Add bitcoin accounts to COMPREPLY
@@ -26,13 +26,13 @@ _bitcoin_accounts() {
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_bitcoind() {
+_titcoind() {
     local cur prev words=() cword
-    local bitcoind
+    local titcoind
 
-    # save and use original argument to invoke bitcoind
-    # bitcoind might not be in $PATH
-    bitcoind="$1"
+    # save and use original argument to invoke titcoind
+    # titcoind might not be in $PATH
+    titcoind="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -84,7 +84,7 @@ _bitcoind() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($bitcoind --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($titcoind --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
@@ -103,7 +103,7 @@ _bitcoind() {
     esac
 }
 
-complete -F _bitcoind bitcoind
+complete -F _titcoind titcoind
 }
 
 # Local variables:
