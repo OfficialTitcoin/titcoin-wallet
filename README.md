@@ -1,7 +1,8 @@
 Titcoin integration/staging tree
 ================================
 
-Copyright (c) 2009-2013 Bitcoin Developers // Copyright (c) 2013-2014 Titcoin Developers
+Copyright (c) 2009-2013 Bitcoin Developers </br>  
+Copyright (c) 2013-2014 Titcoin Developers
 
 Intro
 -----
@@ -18,9 +19,9 @@ entire history of Titcoin transactions; depending on the speed
 of your computer and network connection, the synchronization 
 process can take anywhere from a few hours to a day or more.
 
-December 2013 - Alpha Test
-January 2014 - Beta Test
-February 2014 - Final Release
+December 2013 - Alpha Test </br>  
+January 2014 - Beta Test </br>  
+February 2014 - Final Release </br>  
 
 License
 -------
