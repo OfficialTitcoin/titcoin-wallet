@@ -20,8 +20,7 @@ License
 Titcoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
-Titcoin is based on Bitcoin.
-Its development tracks Bitcoin's, the following information applies to Bitcoin's developemnt.
+Titcoin is based on the Bitcoin source code.
 
 Testing
 -------
