@@ -1085,12 +1085,14 @@ static const int64 nTargetTimespan = 14 * 24 * 60 * 60; // two weeks
 static const int64 nTargetSpacing = 10 * 60;
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
+static const int64 nTargetSpacingNew = 60;
+
 //
 // minimum amount of work that could possibly be required nTime after
 // minimum work required was nBase
 //
-unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
-{
+unsigned int ComputeMinWork(unsigned int nBase, int64 nTime) {
+
     // Testnet has min-difficulty blocks
     // after nTargetSpacing*2 time between blocks:
     if (fTestNet && nTime > nTargetSpacing*2)
@@ -1098,8 +1100,7 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
 
     CBigNum bnResult;
     bnResult.SetCompact(nBase);
-    while (nTime > 0 && bnResult < bnProofOfWorkLimit)
-    {
+    while (nTime > 0 && bnResult < bnProofOfWorkLimit) {
         // Maximum 400% adjustment...
         bnResult *= 4;
         // ... in best-case exactly 4-times-normal target time
@@ -1110,8 +1111,8 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
     return bnResult.GetCompact();
 }
 
-unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
-{
+unsigned int static GetNextWorkRequiredV1(const CBlockIndex* pindexLast, const CBlockHeader *pblock) {
+
     unsigned int nProofOfWorkLimit = bnProofOfWorkLimit.GetCompact();
 
     // Genesis block
@@ -1165,12 +1166,68 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
         bnNew = bnProofOfWorkLimit;
 
     /// debug print
-    printf("GetNextWorkRequired RETARGET\n");
+    printf("GetNextWorkRequiredV1 RETARGET\n");
     printf("nTargetTimespan = %"PRI64d"    nActualTimespan = %"PRI64d"\n", nTargetTimespan, nActualTimespan);
     printf("Before: %08x  %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
     printf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
 
     return bnNew.GetCompact();
+}
+
+unsigned int GetNextWorkRequiredV2(const CBlockIndex* pindexLast, const CBlockHeader *pblock) {
+
+    // Modified Digishield. Digishield retargets every block, reducing the apparent difference between the actual
+    // block interval and target block interval by a factor of 8. It allows a 33% change in difficulty.
+
+    unsigned int nProofOfWorkLimit = bnProofOfWorkLimit.GetCompact();
+
+    // Genesis block
+    if (pindexLast == NULL)
+        return nProofOfWorkLimit;
+
+    // Titcoin: Digishield implementation means difficulty changes every block
+
+    // Go back by one block
+    const CBlockIndex* pindexFirst = pindexLast;
+    pindexFirst = pindexFirst->pprev;
+    assert(pindexFirst);
+
+    // Limit adjustment step
+    int64 nActualTimespan = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
+    printf("  nActualTimespan = %"PRI64d" before bounds\n", nActualTimespan);
+    
+    nActualTimespan = nTargetSpacingNew + (nActualTimespan - nTargetSpacingNew) / 8;
+
+    int64 lowerLim = nTargetSpacingNew - nTargetSpacingNew / 4;
+    int64 higherLim = nTargetSpacingNew + nTargetSpacingNew / 2;
+
+    if (nActualTimespan < lowerLim) 
+	    nActualTimespan = lowerLim;
+    else if (nActualTimespan > higherLim) 
+	    nActualTimespan = higherLim;
+
+    // Retarget
+    CBigNum bnNew;
+    bnNew.SetCompact(pindexLast->nBits);
+    bnNew *= nActualTimespan;
+    bnNew /= nTargetSpacingNew;
+
+    if (bnNew > bnProofOfWorkLimit)
+        bnNew = bnProofOfWorkLimit;
+
+    /// debug print
+    printf("GetNextWorkRequiredV2 RETARGET\n");
+    printf("nTargetTimespan = %"PRI64d"   nActualTimespan (adjusted) = %"PRI64d"\n", nTargetSpacingNew, nActualTimespan);
+    printf("Before: %08x  %s\n", pindexLast->nBits, CBigNum().SetCompact(pindexLast->nBits).getuint256().ToString().c_str());
+    printf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.getuint256().ToString().c_str());
+
+    return bnNew.GetCompact();
+}
+
+unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock) {
+
+    return ((pindexLast->nTime < DIFF_HARD_FORK_TIME) ? GetNextWorkRequiredV1 : GetNextWorkRequiredV2) (pindexLast, pblock);
+
 }
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits)

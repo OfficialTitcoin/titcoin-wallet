@@ -5,9 +5,9 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6
+!define VERSION 1.0.0
 !define COMPANY "Titcoin project"
-!define URL http://www.coingen.io/
+!define URL http://www.titcoins.biz/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/titcoin.ico"
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile titcoin-0.8.6-win32-setup.exe
+OutFile titcoin-1.0.0-win32-setup.exe
 InstallDir $PROGRAMFILES\Titcoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.0
+VIProductVersion 1.0.0.0
 VIAddVersionKey ProductName Titcoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
