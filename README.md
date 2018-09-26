@@ -3,14 +3,16 @@ Titcoin integration/staging tree
 
 Copyright (c) 2009-2013 Bitcoin Developers </br>  
 Copyright (c) 2013-2014 Titcoin Developers
+Copyright (c) 2018-2018 TittieCoin Developers
+
 
 Intro
 -----
 
-Titcoin is a free open source peer-to-peer electronic cash 
-system that is completely decentralized, without the need for
-a central server or trusted parties.  Users hold the crypto 
-keys to their own money and transact directly with each 
+Titcoin recently aquiered by the TittieCoin developers is an
+open source peer-to-peer electronic cash system that is completely 
+decentralized, without the need for a central server or trusted parties. 
+Users hold the crypto keys to their own money and transact directly with each 
 other, with the help of a P2P network to check for double-spending.
 
 Titcoin-Qt is the original Titcoin client and it builds the 
