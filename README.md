@@ -2,7 +2,7 @@ Titcoin integration/staging tree
 ================================
 
 Copyright (c) 2009-2013 Bitcoin Developers </br>  
-Copyright (c) 2013-2014 Titcoin Developers
+Copyright (c) 2013-2014 Titcoin Developers </br> 
 Copyright (c) 2018-2018 TittieCoin Developers
 
 
